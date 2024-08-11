@@ -107,7 +107,6 @@ picture .pc{
     text-decoration: none;
     list-style: none;
     font-size: 0.875rem;
-    color: hsl(0, 0%, 100%);
     font-weight: 700;
 }
 
@@ -121,6 +120,7 @@ button{
     background-color: hsl(158, 36%, 37%);
     border: none;
     cursor: pointer;
+    color: hsl(0, 0%, 100%);
     
 }
 
@@ -128,9 +128,9 @@ button{
     padding: 0.5rem;
 }
 
-button:hover{
+a :hover{
     background-color: hsl(147, 93%, 16%);
-    color: hsl(158, 36%, 37%);
+    color: hsl(0, 0%, 100%);
 }
 
 @media only screen and (min-width: 992px) {
