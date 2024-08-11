@@ -22,7 +22,7 @@ main{
     height: 100vh;
 }
 
-picture{
+.picture{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,13 +32,13 @@ picture{
     padding-bottom: 0;
 }
 
-picture .mobile{
+.picture .mobile{
     width: 20rem;
     border-top-left-radius: 1rem;
     border-top-right-radius: 1rem;
 }
 
-picture .pc{
+.picture .pc{
     display: none;
 }
 
@@ -143,10 +143,10 @@ a :hover{
     .mobile{
         display: none;
     }
-    picture{
+    .picture{
         padding: 0;
     }
-    picture .pc{
+    .picture .pc{
         display:block;
         width: 18rem;
         border-top-left-radius: 1rem;
